@@ -1,0 +1,20 @@
+
+1. Download python from this link.
+  https://www.python.org/downloads/
+
+2. Install python. ( Please check "Add Python to path" )
+
+3. Open terminal, run "pip install pyodbc"
+
+3. Open main.py
+
+4. Change the server name(DESKTOP-BLIBIF4) into your one(in line 8).
+
+ 	conn = pyodbc.connect('Driver={SQL Server};'
+                      'Server=DESKTOP-BLIBIF4;'
+                      'Database=EDOTXML;'
+                      'Trusted_Connection=yes;')
+
+5. Save the change.
+
+6. Open terminal in the folder where has main.py, and run "python main.py" 
